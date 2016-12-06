@@ -1,42 +1,4 @@
 {
-  "_args": [
-    [
-      "eslint-config-r1cebank",
-      "/Users/siyuangao/Documents/ricebowl-bot"
-    ]
-  ],
-  "_from": "eslint-config-r1cebank@latest",
-  "_id": "eslint-config-r1cebank@0.0.1",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/eslint-config-r1cebank",
-  "_nodeVersion": "6.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/eslint-config-r1cebank-0.0.1.tgz_1476988534180_0.1864585862495005"
-  },
-  "_npmUser": {
-    "email": "siyuangao@gmail.com",
-    "name": "r1cebank"
-  },
-  "_npmVersion": "3.8.6",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "eslint-config-r1cebank",
-    "raw": "eslint-config-r1cebank",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_shasum": "3cdbe78cb5b648373b2f325eaae39ecc820d5fee",
-  "_shrinkwrap": null,
-  "_spec": "eslint-config-r1cebank",
-  "_where": "/Users/siyuangao/Documents/ricebowl-bot",
   "dependencies": {},
   "description": "ESLint rules for r1cebank",
   "devDependencies": {},
@@ -48,10 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "maintainers": [
-    {
-      "email": "siyuangao@gmail.com",
-      "name": "r1cebank"
-    }
+    "r1cebank <siyuangao@gmail.com>"
   ],
   "name": "eslint-config-r1cebank",
   "optionalDependencies": {},
@@ -61,9 +20,17 @@
     "eslint-plugin-lodash": "^1.10.1",
     "eslint-plugin-react": "^6.0.0"
   },
-  "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1cebank/eslint-config-r1cebank.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/r1cebank/eslint-config-r1cebank/issues"
+  },
+  "homepage": "https://github.com/r1cebank/eslint-config-r1cebank#readme"
 }
