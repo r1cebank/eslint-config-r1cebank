@@ -1,8 +1,7 @@
 #
 # overrides.yml
 #
-# @author  Denis Luchkin-Zhou <denis@ricepo.com>
-# @license 2015-16 (C) Ricepo LLC. All Rights Reserved.
+# @author  Siyuan Gao <siyuangao@siyuangao.com>
 #
 ---
 plugins:
@@ -12,9 +11,6 @@ plugins:
 parserOptions:
   ecmaFeatures:
     jsx: true
-
-ecmaFeatures:
-  jsx: true
 
 
 rules:
@@ -340,9 +336,7 @@ rules:
     # Enforce spaces before the closing bracket of self-closing JSX elements
     # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
     #
-    react/jsx-space-before-closing:
-      - error
-      - always
+    react/jsx-tag-spacing: error
 
 
     #
