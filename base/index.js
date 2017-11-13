@@ -17,8 +17,4 @@ exports.extends = [
 
 ].map(require.resolve);
 
-
-exports.parser = 'babel-eslint';
-
-
 exports.rules = { strict: 'error' };
